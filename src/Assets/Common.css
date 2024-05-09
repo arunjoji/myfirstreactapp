@@ -244,3 +244,42 @@ h2{
     width: 50%;
     height: 60%;
 }
+.footerWrapper{
+    display: flex;
+    background-color: #495e57;
+    flex-wrap: wrap;
+}
+
+.fsection1,
+.fsection2,
+.fsection3,
+.fsection4{
+    width:25%
+}
+
+.fsection1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fsection2 h5,
+.fsection3 h5,
+.fsection4 h5{
+    font-size: 30px;
+    color: white;
+}
+
+#fnav{
+    color: white;
+    font-family: Karla, sans-serif;
+    font-weight: 800;
+    
+    text-decoration: none;
+}
+.fsection2 ul,
+.fsection3 ul,
+.fsection4 ul{
+    list-style: none;
+}
