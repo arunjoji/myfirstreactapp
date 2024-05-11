@@ -1,4 +1,5 @@
 import food from "../Assets/restauranfood.jpg"
+import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <header>
@@ -7,8 +8,7 @@ const Header = () => {
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
                     <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
-                    {/* <Link to="/Booking"><button aria-label="On Click">Reserve Table</button></Link> */}
-                    <button id="button" aria-label="On Click">Reserve Table</button>
+                    <Link to="/reservation"> <button id="button" aria-label="On Click">Reserve Table</button></Link>
                 </div>
             </section>
             <section>
