@@ -5,7 +5,7 @@ import Main from './Components/Main';
 import Footer from "./Components/Footer"
 import { Routes, Route } from "react-router-dom";
 import Reservation from './Components/Reservation';
-import Confirmation from './Confirmation';
+import Confirmation from './Components/Confirmation';
 import { useState,useEffect } from 'react';
 
 function App() {

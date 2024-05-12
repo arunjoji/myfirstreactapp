@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Reservation = (props) => {
    const navigate= useNavigate();
@@ -6,7 +6,11 @@ const Reservation = (props) => {
    const [guests, setGuests] = useState("");
    const [date, setDate] = useState("");
    const [times, setTimes] = useState("");
-
+   
+//    useEffect(()=>{
+//   fetch(fetchAPI(date))
+//   .then(data=>(console.log(data)))
+//    },[date])
    const handleChange = (e) => {
     switch(e.target.name)
     {
