@@ -77,7 +77,7 @@ const Reservation = (props) => {
                                 </select>
                             </div>
                             <div className="Fbuttonwrapper">
-                                <input aria-label="On Click" type="submit"  value="Make Your Reservation" />
+                                <input aria-label="Make Your Reservation" type="submit"  value="Make Your Reservation" />
                             </div>
                         </div>
                     </fieldset>
